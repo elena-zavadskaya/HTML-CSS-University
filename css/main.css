@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 2000px;
+    background-color: #333;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 1024px) {
+    body {
+        background-color: white;
+    }
+}
+
+#up_botton, #up_botton a {
+    text-decoration: none;
+    background: red;
+    color: #fff;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 60%;
+    position: fixed;
+    left: 30px;
+    top: 80%;
+}
+
+#up_botton a img {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    left: 40px;
+    top: 81%;
+}
+
+header, footer {
+    font-family: 'Pixelify Sans', cursive;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border-bottom: 4px solid #5C5C5C;
+    background: black;
+    color: #fff;
+    line-height: 100px;
+    margin-bottom: 50px;
+    float: left;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+#nav {
+    list-style: none;
+    display: block;
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#nav li {
+    display: inline;
+    background: silver;
+    color: white;
+    padding: 7px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#nav li:hover {
+    color: #fff;
+    background: #333;
+    border: 4px solid silver;
+}
+
+#nav li:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+#nav li a {
+    text-decoration: none;
+}
+
+#nav li:hover a {
+    text-decoration: none;
+    color: silver;
+}
+
+main, aside {
+    border-radius: 5px;
+    color: #D4D4D4;
+    font-family: Arial;
+    justify-content: center;
+}
+
+main {
+    width: 50%;
+    margin-left: 10%;
+    background: #5C5C5C;
+    padding: 20px 2.5%;
+    float: left;
+}
+
+aside {
+    width: 20%;
+    padding: 20px 2.5%;
+    background: #5C5C5C;
+    float: left;
+    margin-left: 5%;
+    position: relative;
+}
+
+#my_name {
+    text-align: center;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 2rem;
+    border: 4px solid silver;
+}
+
+img {
+    width: 100%;
+    float: center;
+}
+
+.headers {
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 2rem;
+}
+
+a, a b {
+    color: white;
+}
+
+a:hover, a b:hover {
+    color: #D3D3D3;
+}
+
+ol {
+    margin-left: 50px;
+}
+
+footer {
+    margin-bottom: 0;
+    margin-top: 50px;
+    border-bottom: 0;
+    border-top: 4px solid #5C5C5C;
+    float: left;
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    font-family: auto;
+}
